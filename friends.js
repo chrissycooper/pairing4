@@ -1,7 +1,8 @@
 var name = "Abe Lincoln";
+var otherName = "George Washington";
 
-if (name === "Abe Lincoln") {
+if (name === "") {
     console.log(`Hello there, ${name}.`)
-} else {
+} else if (otherName === "George Washington"){
     console.log("Hi, stranger.")
 }
